@@ -1,0 +1,6 @@
+
+
+login --- techer check in the teacher table
+admin --- add new teacher to the teacher table
+
+this is the caused during the adding of teachrs in the admin panel

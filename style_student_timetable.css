@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Set font for the entire document */
+    background-color: #f8f9fa; /* Light gray background for the body */
+    margin: 20px; /* Margin around the body */
+}
+
+/* Title styles */
+h2 {
+    text-align: center; /* Center the title */
+    color: #343a40; /* Dark color for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Timetable grid styles */
+.timetable {
+    display: grid; /* Use CSS Grid layout */
+    grid-template-columns: 150px repeat(6, 1fr); /* 1st column for days, 6 for periods */
+    grid-auto-rows: 70px; /* Height of each row */
+    border: 1px solid #343a40; /* Dark border around the grid */
+    margin-top: 40px; /* Space above the timetable */
+}
+
+/* Day header styles */
+.day {
+    background-color: #e9e9e9; /* Light gray background for day headers */
+    font-weight: bold; /* Bold font for headers */
+    text-align: left; /* Center text */
+    border-right: 1px solid #343a40; /* Right border for day headers */
+    border: 1px solid #343a40; /* Border for each cell */
+    padding: 20px;
+}
+
+/* Period header styles */
+.period {
+    font-weight: bold; /* Bold font for period headers */
+    background-color: #47a3ff; /* Slightly darker gray for period headers */
+    text-align: center; /* Center text */
+    border-bottom: 1px solid #e41a1a;
+    font-size:1rem;
+    padding: 25px;
+    border: 1px solid #343a40; /* Border for each cell */
+     /* Bottom border for period headers */
+}
+
+/* Cell styles for timetable entries */
+.cell {
+    border: 1px solid #343a40; /* Border for each cell */
+    padding: 10px; /* Padding inside cells */
+    text-align: center; /* Center text */
+    background-color: #ffffff; /* White background for cells */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for cells */
+.cell:hover {
+    background-color: #71d464; /* Light gray background on hover */
+}
+
+/* Free cell styles */
+.cell:empty {
+    color: #6c757d; /* Gray color for empty cells */
+    font-style: italic; /* Italic style for empty cells */
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.button_box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 200px;
+}
+.button_manage{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}

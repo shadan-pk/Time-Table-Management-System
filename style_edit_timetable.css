@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center; /* Center the main heading */
+    color: #333; /* Dark grey color */
+}
+
+/* Form Container */
+form {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Label Styles */
+label {
+    display: block; /* Make labels block elements */
+    margin: 10px 0 5px; /* Add margin for spacing */
+    font-weight: bold; /* Bold font for labels */
+}
+
+/* Input Field Styles */
+input[type="number"],
+input[type="text"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside the inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in total width/height */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the text */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Error Message Styles */
+.error {
+    color: red; /* Red text for error messages */
+    font-weight: bold; /* Bold font for emphasis */
+    margin-top: 10px; /* Margin above error messages */
+}
+/* General form styling */
+form {
+    max-width: 400px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light border around the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for labels */
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Style for input fields and select dropdown */
+input[type="number"],
+select {
+    width: 100%; /* Full width of the form */
+    padding: 10px; /* Padding inside the inputs */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Style for the select dropdown specifically */
+select {
+    appearance: none; /* Remove default styling */
+    background-color: #fff; /* White background */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><polyline points="6 9 12 15 18 9"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat; /* Do not repeat background */
+    background-position: right 10px center; /* Position the arrow */
+    background-size: 12px; /* Size of the arrow */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding around the text */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change color of button on hover */
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+
+
