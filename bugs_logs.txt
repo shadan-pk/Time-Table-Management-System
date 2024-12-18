@@ -1,0 +1,7 @@
+login --- techer check in the teacher table -------- solved
+admin --- add new teacher to the teacher table ------- solved
+scenario:
+  this is the caused during the adding of teachrs in the admin panel
+
+update:
+  • have few bugs while creating teaching and assigning timetable to the teacher 
